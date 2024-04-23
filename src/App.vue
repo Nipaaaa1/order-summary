@@ -44,18 +44,18 @@
             >
           </div>
           <a
-            class="ml-auto text-xs font-bold text-primary-bright-blue underline"
+            class="ml-auto text-xs font-bold text-primary-bright-blue underline transition-colors ease-in-out hover:text-primary-bright-blue/80"
             href="#"
             >Change</a
           >
         </div>
         <button
-          class="w-full rounded-xl bg-primary-bright-blue p-3 text-sm font-bold text-neutral-very-pale-blue shadow-xl shadow-primary-bright-blue/30"
+          class="w-full rounded-xl bg-primary-bright-blue p-3 text-sm font-bold text-neutral-very-pale-blue shadow-xl shadow-primary-bright-blue/30 transition-colors ease-in-out hover:bg-primary-bright-blue/80"
         >
           Proceed to Payment
         </button>
         <button
-          class="w-full p-3 text-sm font-bold text-neutral-desaturated-blue"
+          class="w-full p-3 text-sm font-bold text-neutral-desaturated-blue transition-colors ease-in-out hover:text-neutral-dark-blue"
         >
           Cancel Order
         </button>
