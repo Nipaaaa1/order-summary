@@ -5,17 +5,28 @@
     class="grid h-svh w-full place-items-center bg-primary-pale-blue p-6 font-red-hat-display"
   >
     <img
-      class="absolute inset-0"
+      class="absolute inset-0 md:hidden"
       src="/images/pattern-background-mobile.svg"
       alt=""
     />
-    <div class="z-10 flex w-full flex-col overflow-clip rounded-2xl">
+    <img
+      class="absolute inset-0 hidden w-full md:block"
+      src="/images/pattern-background-desktop.svg"
+      alt=""
+    />
+    <div
+      class="z-10 flex w-full flex-col overflow-clip rounded-2xl md:max-w-sm"
+    >
       <img
         src="/images/illustration-hero.svg"
         alt="A person listening music illustration"
       />
-      <div class="space-y-4 bg-neutral-very-pale-blue p-6 text-center">
-        <h1 class="text-xl font-black text-neutral-dark-blue">Order Summary</h1>
+      <div
+        class="space-y-4 bg-neutral-very-pale-blue p-6 text-center md:space-y-6 md:p-8"
+      >
+        <h1 class="text-xl font-black text-neutral-dark-blue md:text-2xl">
+          Order Summary
+        </h1>
         <p class="text-sm font-semibold text-neutral-desaturated-blue">
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
