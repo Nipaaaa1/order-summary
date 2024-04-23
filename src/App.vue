@@ -1,4 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useHead } from "@unhead/vue";
+
+useHead({
+  title: "Order Summary Page",
+  meta: [
+    {
+      name: "description",
+      content: "This is an Order Summary page from Frontend Mentor Challenges",
+    },
+  ],
+  link: [{ rel: "icon", type: "image/png", href: "/images/favicon-32x32.png" }],
+});
+</script>
 
 <template>
   <div
